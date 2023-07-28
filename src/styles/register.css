@@ -1,0 +1,43 @@
+.h{
+    color:#000d6b;
+    margin-top:5%;
+    margin-left: -20%;
+    margin-bottom: 7%;
+}
+.al{
+    margin-top: 15%; 
+}
+.aa{
+     margin-top:3%;
+     margin-left:3%;
+}
+.bn{
+    margin-left: 35%;
+  }
+  .lg{
+    background-color:#fff !important;
+    color:#000d6b !important;
+    width: 20%;
+    margin-left: 13%;
+}
+.al{
+    margin-top: 15%; 
+}
+.alr{
+    text-decoration: none;
+    margin-left: 35%;
+    color:#000d6b;
+    font-weight: bold;
+    font-size: larger;
+}
+.al :hover{
+   background: #000d6b;
+   border-radius: 20%;
+   color:orange;
+   padding: 1% 1% 1% 1%;
+}
+.abc{
+    padding: 2% 2% 2% 2%;
+    border:50%;
+    
+}

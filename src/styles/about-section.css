@@ -1,0 +1,16 @@
+.about__section-item {
+    column-gap: 3rem;
+  }
+  
+  .about__section-item p i {
+    color: #f9a826;
+    font-size: 1.1rem;
+  }
+  .ppp{
+    width: 80%;
+    height:40%;
+  }
+  .pppp{
+    width: 90%;
+    height:45%;
+  }
