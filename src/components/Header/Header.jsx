@@ -60,7 +60,7 @@ const Header = () => {
             <div className="header__middle">
                 <Container>
                     <Row>
-                        <Col lg="3" md="3" sm="4">
+                        <Col lg="4" md="3" sm="4">
                             <div className="logo">
                                 <h1>
                                     <Link to="/home" className=" d-flex align-items-center gap-2">
@@ -73,8 +73,8 @@ const Header = () => {
                             </div>
                         </Col>
 
-                        <Col lg="7" md="3" sm="4">
-                            <div className="header__location d-flex align-items-center gap-2 xyz">
+                        <Col lg="3" md="3" sm="4">
+                            <div className="header__location d-flex align-items-center gap-2 ">
                                 <span>
                                     <i class="ri-earth-line"></i>
                                 </span>
@@ -85,7 +85,7 @@ const Header = () => {
                             </div>
                         </Col>
 
-                        <Col lg="2" md="3" sm="4">
+                        <Col lg="3" md="3" sm="4">
                             <div className="header__location d-flex align-items-center gap-2">
                                 <span>
                                     <i class="ri-time-line"></i>
@@ -97,13 +97,14 @@ const Header = () => {
                             </div>
                         </Col>
 
-                        {/* <Col lg="2" md="3" sm="0" className=" d-flex align-items-center justify-content-end ">
+                        <Col lg="2" md="3" sm="0" className=" d-flex align-items-center justify-content-end ">
                             <button className="header__btn btn ">
-                                <Link to="/contact">
+                                <a href="tel:01876531138">
+                               
                                     <i class="ri-phone-line"></i> Request a call
-                                </Link>
+                                </a>
                             </button>
-                        </Col> */}
+                        </Col> 
                     </Row>
                 </Container>
             </div>

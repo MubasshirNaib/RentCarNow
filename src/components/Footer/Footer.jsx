@@ -48,9 +48,7 @@ const Footer = () => {
             </div>
             <p className="footer__logo-content">
            Our Project “RentCarNow” is a car rental web application.
-           We understand the importance of reliable and efficient transportation and thus the purpose of this project is to provide top-notch services to ensure our journey is comfortable and enjoyable. Whether a local resident in need of a temporary vehicle or a traveler exploring the wonders of Bangladesh, our web application is ready to serve.
-           Our user-friendly website allows us to effortlessly browse through our inventory, compare prices, and select the perfect vehicle for our needs.
-
+           We understand the importance of reliable and efficient transportation and thus the purpose of this project is to provide top-notch services to ensure our journey is comfortable and enjoyable.
             </p>
           </Col>
           <Col lg="5" md="4" sm="6">

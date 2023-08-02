@@ -75,21 +75,22 @@ const Login1 = () => {
 
                             <Form>
                                 <FormGroup className="booking__form d-inline-block me-4 mb-4">
-                                    <Label for="name">Email</Label>
-                                    <i class="ri-mail-fill"></i>
+                                    <Label for="name">Email   <i class="ri-mail-fill"></i></Label>
+                                    
                                     <input type="email" name="email" id="email" autocomplete="off" placeholder="Your Email" onChange={(e) => setName(e.target.value)} />
                                 </FormGroup>
 
                                 <FormGroup className="booking__form d-inline-block me-1 mb-4">
-                                    <Label for="password">Password</Label>
-                                    <i class="ri-lock-fill"></i>
+                                    <Label for="password">Password  <i class="ri-lock-fill"></i></Label>
+                                    {/* <i class="ri-lock-fill"></i> */}
                                     <input type="password" name="password" id="password" autocomplete="off" placeholder="Your Password" onChange={(e) => setPassword(e.target.value)} />
                                 </FormGroup>
 
                                 <Button type="submit" className="btn lg" onClick={submit}>
                                     Log in
                                 </Button>
-                                <Button type="submit" className="btn lg" onClick={asubmit}>Admin</Button>
+                                <Button type="submit"  className="btn lg" onClick={asubmit}>Admin</Button>
+                               
                                 <div className="al"><Link to="/register" className="alr">Register</Link>
                                 </div>
                             </Form>

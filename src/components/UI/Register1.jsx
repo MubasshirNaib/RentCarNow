@@ -83,9 +83,9 @@ const Register1 = () => {
                         <MDBCol md="10" lg="6" className="order-1 order-lg-2  align-items-center">
                             <MDBCardImage src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/draw1.webp" fluid />
                             <div className="al">
-                                <Link to="/login" className="alr">
+                                {/* <Link to="/login" className="alr">
                                     I am already registered
-                                </Link>
+                                </Link> */}
                             </div>
                         </MDBCol>
                     </MDBRow>

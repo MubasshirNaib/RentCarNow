@@ -15,16 +15,18 @@
     margin-left: 35%;
   }
   .lg{
-    background-color:#fff !important;
-    color:#000d6b !important;
-    width: 20%;
-    margin-left: 13%;
+    /* background-color:#fff !important;
+    color:#000d6b !important; */
+    /* width: 31%; */
+    margin-top: 10%;
+    margin-left: 20%;
 }
 .al{
     margin-top: 15%; 
 }
 .alr{
     text-decoration: none;
+    margin-top:-100%;
     margin-left: 35%;
     color:#000d6b;
     font-weight: bold;
