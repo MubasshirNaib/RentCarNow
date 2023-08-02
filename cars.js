@@ -1,9 +1,13 @@
 /* eslint-disable max-lines */
+const mongoURL="mongodb+srv://naib:naib123@cluster0.pe8fx1k.mongodb.net/Rent-Car-Now?retryWrites=true&w=majority"
 const mongoose = require('mongoose');
 mongoose
-    .connect('mongodb://0.0.0.0:27017/react-login-tut')
+    .connect(mongoURL,{
+        useNewUrlParser: true,
+        useUnifiedTopology: true,
+      })
     .then(() => {
-        console.log('mongodb connected');
+        console.log('Smongodb connected');
     })
     .catch(() => {
         console.log('failed');
