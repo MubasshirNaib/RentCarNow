@@ -1,10 +1,12 @@
+/* eslint-disable max-lines */
 import React from 'react';
-import { Link } from 'react-router-dom';
+
+import { NavLink} from 'react-router-dom';
 import { Col } from 'reactstrap';
 import '../../styles/car-item.css';
-
 const CarItem = (props) => {
     const { imgUrl, model, carName, automatic, speed, price } = props.item;
+
 
     return (
         <Col lg="4" md="4" sm="6" className="mb-5">
@@ -31,13 +33,14 @@ const CarItem = (props) => {
                         </span>
                     </div>
 
-                    <button className=" w-50 car__item-btn car__btn-rent">
-                        <Link to={`/cars/${carName}`}>Rent</Link>
-                    </button>
-
-                    <button className=" w-50 car__item-btn car__btn-details">
-                        <Link to={`/cars/${carName}`}>Details</Link>
-                    </button>
+                    <div className='d-flex justify-content-center gap-3'>
+                        <NavLink className="w-50 px-5 py-2 car__item-btn car__btn-rent text-white text-center" to={`/cars/${carName}`}>
+                            Rent
+                        </NavLink>
+                        <NavLink className="w-50 px-5 py-2 car__item-btn car__btn-details text-white text-center" to={`/cars/${carName}`}>
+                            Details
+                        </NavLink>
+                    </div>
                 </div>
             </div>
         </Col>
